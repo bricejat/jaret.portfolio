@@ -12,5 +12,7 @@ I am unsure if the images will come out right with this on a public website but 
 # License
 I have a MIT License attached to this right now, I'm sure if it's wrong I'll hear about it but for now we rocking with that.
 
+
+# Contact
 If you have any questions or wanna chat hit my line 
 at bricelyjaret@gmail.com
