@@ -83,21 +83,24 @@
             </ul>
         </div>
     </div>
+
 </section>
     <section id="projects-section">
     <h2>Projects</h2>
+
     <div class="projects-list">
         <div class="project-item">
             <a href="https://www.jpplus.com/" target="_blank" rel="noopener">
                 <img src="images/jpplus-screenshot.png" alt="JPPlus Website Screenshot" style="width:100%; border-radius:10px; margin-bottom:1rem;">
                 </a>
             <h3>Data Cleaning</h3>
-            <p class="company">Johnson Plastics Plus &mdash; May 2024 &ndash; July 2025</p>
+            <p class="company">Rowmark LLC &mdash; May 2024 &ndash; July 2025</p>
             <ul>
                 <li>Participated in a cross-functional Taxonomy &amp; Recategorization Initiative, enhancing digital UX through strategic data restructuring.</li>
                 <li>Executed large-scale data cleaning (20,000+ records) via PowerBI extraction and advanced Excel automation, optimizing website navigation and user interface efficiency.</li>
             </ul>
         </div>
+
         <div class="project-item">
     <a href="index.html" target="_blank" rel="noopener">
         <img src="images/portfolio-screenshot.png" alt="Portfolio Website Screenshot" style="width:100%; border-radius:10px; margin-bottom:1rem;">
@@ -108,30 +111,60 @@
         <li>Designed and developed a responsive personal portfolio website using HTML and CSS.</li>
         <li>Showcases my professional experience, projects, and technical skills.</li>
         <li>I will continuously update to reflect new skills and accomplishments.</li>
-    </ul>
+</ul>
 </div>
+
+      <div class="project-item">
+            <a href="https://github.com/bricejat/Dwarf-Hunt" target="_blank" rel="noopener">
+                <img src="images/Dwarf.png" alt="Dwarf Logo" style= "width:80%; border-radius:10px; margin-bottom:1rem;">
+                <h3>Dwarf Hunt</h3>
+                <p class="company">Jaret Bricely &mdash; July 2025</p>
+            </a>
+                <li> Developed my own Java 2D game engine and was able to create without using external libraries</li>
+                <li> Whilst also creating a game loop, display player character, control player character, display background tiles and displaying objects.</li>
+                <li> The gameplay loop and theme of the game is a "Treasure Hunt" speedrun game. All art and sound created by myself.</li>
+            </ul>
     </div>
-</section>
-        <div class="divider"></div>
-        <section id="skills-section">
-        <h2 id="skills-section"> Skills</h2> 
-        <div class="skills-container">
-            <i class="fa-solid fa-file-excel"></i>
-            <i class="fa-solid fa-file-word"></i>
-            <i class="fa-solid fa-r"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-solid fa-database"></i>
-        </div>
+</div>
+
+
+</div>
     </section>
+        <div class="divider"></div>
+            <section id="skills-section">
+            <h2 id="skills-section"> Skills</h2> 
+            <div class="skills-container">
+                <i class="fa-solid fa-file-excel"></i>
+                <i class="fa-solid fa-file-word"></i>
+                <i class="fa-solid fa-r"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-java"></i>
+            </div>
+    </section>
+
+    <!-- Swiper JS -->
     <footer>
         <p>&copy; <span id="year"></span> Jaret Bricely. All Rights Reserved.</p>
     </footer>
-        </script>
- </body></html>
-  
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Automatically update the copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Initialize Swiper
+            const swiper = new Swiper(".card-swiper", {
+                centeredSlides: false,
+                spaceBetween: 0,
+                slidesPerView: 'auto'
+            });
+        });
+    </script>
+  </body>
+</html>
 
 
 
        
-
