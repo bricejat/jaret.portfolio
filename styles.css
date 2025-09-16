@@ -84,7 +84,6 @@ nav .right a:hover {
 }
 
 /* General Section Styles */
-
 section {
     padding: 8rem 2rem;
     min-height: 40vh; /* Reduce the default minimum height */
@@ -106,7 +105,6 @@ section:nth-of-type(even) {
 }
 
 /* Section Heading Styles */
-
 section h2 {
     font-size: 3rem;
     font-weight: 700;
@@ -181,7 +179,6 @@ section h2::after {
 }
 
 /* EXPERIENCE SECTION */
-
 #experience-section {
     padding: 6rem 2rem;
     background: #ffffffc9;
@@ -228,11 +225,9 @@ section h2::after {
 .experience-item li {
     margin-bottom: 0.5rem;
 }
-
 /* PROJECTS SECTION */
-
 #projects-section {
-    padding: 6rem 2rem;
+    padding: 8rem 2rem;
     background: #ffffff;
     text-align: center;
 }
@@ -244,14 +239,14 @@ section h2::after {
 .projects-list {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     align-items: stretch;
     justify-content: center;
     flex-wrap: wrap;
 }
 .project-item {
     background: #ffffff;
-    border-radius: 12px;
+    border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 1.2rem;
     max-width: 340px;
@@ -271,7 +266,7 @@ section h2::after {
     margin-bottom: 1rem;
 }
 .project-item ul {
-    padding-left: 1.2rem;
+    padding-left: 1rem;
 }
 .project-item li {
     margin-bottom: 0.5rem;
@@ -291,7 +286,7 @@ section h2::after {
 /* SKILLS SECTIONS */
 
 #skills-section {
-    min-height: 15vh;
+    min-height: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,7 +308,7 @@ section h2::after {
 }
 
 #skills-section i {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #4a4a66;
     transition: transform 0.3s ease, color 0.3s ease;
     margin: 1rem 0; /* Add margin to ensure proper spacing */
