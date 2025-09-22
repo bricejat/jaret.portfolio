@@ -225,6 +225,7 @@ section h2::after {
 .experience-item li {
     margin-bottom: 0.5rem;
 }
+
 /* PROJECTS SECTION */
 #projects-section {
     padding: 8rem 2rem;
@@ -240,9 +241,9 @@ section h2::after {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    align-items: stretch;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: left;
+    flex-wrap: nowrap;
 }
 .project-item {
     background: #60606e;
