@@ -9,9 +9,9 @@
 }
 
 :root {
-    --text-color: #6673bb;
+    --text-color: #4255be;
     --link-color: #ffffff;
-    --background-color: #7a7a7a;
+    --background-color: #283b4e;
     font-size: 15x; /* Sets the base font size */
 }
 
@@ -54,7 +54,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(168, 181, 206, 0.801);
+    background-color: rgba(82, 136, 236, 0.801);
     backdrop-filter: blur(5px);
 }
 
@@ -97,11 +97,11 @@ section {
 }
 
 section:nth-of-type(odd) {
-    background-color: #ffffff; /* Light gray for odd sections */
+    background-color: #9c9c9c; /* Light gray for odd sections */
 }
 
 section:nth-of-type(even) {
-    background-color: #ffffff; /* White for even sections */
+    background-color: #9c9c9c; /* White for even sections */
 }
 
 /* Section Heading Styles */
@@ -181,7 +181,7 @@ section h2::after {
 /* EXPERIENCE SECTION */
 #experience-section {
     padding: 6rem 2rem;
-    background: #ffffffc9;
+    background: #9c9c9c;
     text-align: center;
 }
 #experience-section h2 {
@@ -197,7 +197,7 @@ section h2::after {
     flex-wrap: wrap; /*Wraps on smaller screens */
 }
 .experience-item {
-    background: #fcfcfc;
+    background: #60606e;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 2rem;
@@ -208,16 +208,16 @@ section h2::after {
 }
 .experience-item h3 {
     margin-bottom: 0.5rem;
-    color: #251a8a;
+    color: #9286fd;
 }
 .experience-item .company {
     font-size: 1rem;
-    color: #102f92;
+    color: #a48aff;
     margin-bottom: 1.1rem;
 }
 .experience-item .date {
     font-size: 0.95em;
-    color: #27139b;
+    color: #9b8aff;
 }
 .experience-item ul {
     padding-left: 1.2rem;
@@ -228,13 +228,13 @@ section h2::after {
 /* PROJECTS SECTION */
 #projects-section {
     padding: 8rem 2rem;
-    background: #ffffff;
+    background: #9c9c9c;
     text-align: center;
 }
 #projects-section h2 {
     color: var(--text-color);
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
 }
 .projects-list {
     display: flex;
@@ -245,28 +245,28 @@ section h2::after {
     flex-wrap: wrap;
 }
 .project-item {
-    background: #ffffff;
+    background: #60606e;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
     padding: 1.2rem;
-    max-width: 340px;
+    max-width: 280px;
     width: 100%;
     text-align: left;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .project-item h3 {
-    margin-bottom: 0.5rem;
-    color: #1a0649;
+    margin-bottom: .5rem;
+    color: #a48aff;
     font-size: 1.1rem;
 }
 .project-item .company {
-    font-size: 0.95rem;
-    color: #3b48be;
+    font-size: .95rem;
+    color: #a48aff;
     margin-bottom: 1rem;
 }
 .project-item ul {
-    padding-left: 1rem;
+    padding-left: .5rem;
 }
 .project-item li {
     margin-bottom: 0.5rem;
@@ -279,7 +279,7 @@ section h2::after {
 
 .project-item img:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 24px rgb(146, 202, 235);
+    box-shadow: 0 6px 24px rgb(82, 60, 204);
     cursor: pointer;
 }
 
